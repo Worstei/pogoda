@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-image:url(./chmura3.jpg);
+    background-size: cover;
+
+}
+
+#img{
+    width: 30px;
+    height: 30px;
+margin-top: 7px;
+}
+.poczatek{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.123);
+    height: 40px;
+box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.239);
+
+}
+.poczatek > h1 {
+    font-size: 20px;
+    margin-top: 9px;
+}
+.loc{
+    display: flex;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+
+}
+.zegar{
+    margin-left: 750px;
+}
+#cityname{
+    margin-left: 5px;
+}
+.btn{
+    background-color:transparent;
+    border: none;
+    font-size: 10px;
+    text-shadow:0 1px 1px 1px rgba(0, 0, 0, 0.322) ;
+}
+
+main{
+    margin-left: 30px;
+   margin-top: 10px;
+   background-color: rgba(255, 255, 255, 0.116);
+   width:325px;
+   min-height: 260px;
+   box-shadow: 5px 6px 10px 10px rgba(0, 0, 0, 0.239) ;
+   padding: 12px;
+   border-radius: 20px;
+}
+.bi{
+    margin-right: 5px;
+    font-size: 15px;
+}
+.box {
+    display: flex;
+}
+.icons{
+    margin-left: 5px;
+}
+.bi-geo-alt{
+    font-size: 18px;
+}
